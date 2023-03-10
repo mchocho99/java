@@ -1,5 +1,7 @@
+package com.amigoscode;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("a ver ahora");
+        System.out.println("Hello world!");
     }
 }
