@@ -1,10 +1,22 @@
 package com.amigoscode;
 
 import java.sql.SQLOutput;
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
         primitiveDataTypes();
+        referenceDataTypes();
+    }
+
+    public static void referenceDataTypes() {
+        String name = "Martín Chocho";
+        LocalDate now = LocalDate.now();
+
+        System.out.println("----------REFERENCE DATA TYPES-----------------");
+        System.out.println(name);
+        System.out.println(now);
+        System.out.println();
     }
 
     public static void primitiveDataTypes() {
